@@ -8,9 +8,4 @@ urlpatterns = [
         "",
         include("accounts.urls")
     ),
-
-    path(
-        "medical/",
-        include("medical.urls")
-    ),
 ]
